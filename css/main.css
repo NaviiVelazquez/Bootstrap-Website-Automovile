@@ -1,10 +1,22 @@
 /* Menú de navegación */
+#navbar-main {
+ background-color: #0d0d0d;
+}
+
 .navbar {
-    box-shadow: 0px 2px 5px #2e2e2e;
+    box-shadow: 0px 2px 3px #0d0d0d;
+}
+
+.navbar-dark .navbar-brand {
+    color: #fffffe;
 }
 
 .navbar-dark .navbar-nav .nav-link {
-    color: #ffffff;
+    color: #fffffe;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #ff8e3c;
 }
 
 /* Header */
@@ -22,7 +34,28 @@
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(83, 82, 237,0.7);
+    background-color:rgb(239, 240, 243, 0.7);
+}
+
+.color-texto {
+    color: #2a2a2a;
+}
+
+#btn-leer {
+    color: #fffffe;
+    background-color: #ff8e3c;
+    border-color: #ff8e3c;
+}
+
+#btn-leer:focus {
+    color: #ffffff !important;
+    border-color: #ff8e3c !important;
+    box-shadow: 0 0 0 3px rgb(255, 142, 60, 0.6) !important;
+}
+
+/* newsletter */
+#newsletter-main {
+    background-color: #0d0d0d;
 }
 
 /* Team */

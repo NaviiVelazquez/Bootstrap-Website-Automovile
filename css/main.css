@@ -1,4 +1,11 @@
-/* Menú de navegación */
+/* ********************************* Principal ********************************* */
+
+body {
+    background: #fffffe !important;
+}
+
+/* ********************************* Menú de navegación ********************************* */
+
 #navbar-main {
  background-color: #0d0d0d;
 }
@@ -19,7 +26,8 @@
     color: #ff8e3c;
 }
 
-/* Header */
+/* ********************************* Header ********************************* */
+
 .main-header {
     height: 100vh;
     min-height: 500px;
@@ -47,18 +55,126 @@
     border-color: #ff8e3c;
 }
 
+#btn-leer:hover {
+    color: #fffffe !important;
+    border-color: rgb(239, 240, 243, 0.7) !important;
+}
+
 #btn-leer:focus {
     color: #ffffff !important;
     border-color: #ff8e3c !important;
-    box-shadow: 0 0 0 3px rgb(255, 142, 60, 0.6) !important;
+    box-shadow: 0 0 0 3px rgb(255, 142, 60, 0.7) !important;
 }
 
-/* newsletter */
+/* ********************************* newsletter ********************************* */
+
 #newsletter-main {
     background-color: #0d0d0d;
 }
 
-/* Team */
+#newsletter-main input:focus {
+    border-color: #ff8e3c !important;
+    box-shadow: 0 0 0 3px rgb(255, 142, 60, 0.7) !important;
+}
+
+#newsletter-main a {
+    color: #fffffe;
+    background-color: #ff8e3c;
+    border-color: #ff8e3c;
+}
+
+#newsletter-main a:hover {
+    color: #fffffe !important;
+    border-color: #0d0d0d;
+}
+
+#newsletter-main a:focus {
+    color: #ffffff !important;
+    border-color: #ff8e3c !important;
+    box-shadow: 0 0 0 3px rgb(255, 142, 60, 0.7) !important;
+}
+
+/* ********************************* Features ********************************* */
+
+#card-caracteristica-uno {
+    color: #0d0d0d;
+    background: #eff0f3 !important;
+    border-color: #eff0f3;
+}
+
+#card-caracteristica-uno p {
+    color: #2a2a2a;
+}
+
+#card-caracteristica-dos {
+    color: #ffffff;
+    background: #ff8e3c !important;
+    border-color: #ff8e3c;
+}
+
+#card-caracteristica-dos p {
+    color: #fffffe;
+}
+
+#card-caracteristica-tres {
+    color: #0d0d0d;
+    background: #eff0f3 !important;
+    border-color: #eff0f3;
+}
+
+#card-caracteristica-tres p {
+    color: #2a2a2a;
+}
+
+#card-caracteristica-cuatro {
+    color: #ffffff;
+    background: #ff8e3c !important;
+    border-color: #ff8e3c;
+}
+
+#card-caracteristica-cuatro p {
+    color: #fffffe;
+}
+
+.color-separador {
+    background-color: #fffffe;
+}
+
+.btn-leer-mas-gris {
+    color: #fffffe;
+    background-color: #d9376e;
+    border-color: #d9376e;
+}
+
+.btn-leer-mas-gris:hover {
+    color: #fffffe !important;
+    border-color: #eff0f3;
+}
+
+.btn-leer-mas-gris:focus {
+    color: #ffffff !important;
+    border-color: #d9376e !important;
+    box-shadow: 0 0 0 3px rgb(217, 55, 110, 0.7) !important;
+}
+
+.btn-leer-mas-naranja {
+    color: #fffffe;
+    background-color: #d9376e;
+    border-color: #d9376e;
+}
+
+.btn-leer-mas-naranja:hover {
+    color: #fffffe !important;
+    border-color: #ff8e3c;
+}
+
+.btn-leer-mas-naranja:focus {
+    color: #ffffff !important;
+    border-color: #d9376e !important;
+    box-shadow: 0 0 0 3px rgb(217, 55, 110, 0.7) !important;
+}
+
+/* ********************************* Team ********************************* */
 .team {
     background-color: #30336b;
 }

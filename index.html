@@ -182,7 +182,7 @@
     </section>
 
     <!-- About -->
-    <section class="bg-light py-5">
+    <section id="acerca-producto" class="py-5">
         <div class="container">
             <div class="row text-center">
                 <div class="col">
@@ -201,7 +201,7 @@
     <!-- Collapse -->
     <section class="py-5">
         <div class="container">
-            <div class="row">
+            <div id="titulo-principal" class="row">
                 <div class="col text-center pb-3">
                     <h3>Preguntas frecuentes</h3>
                 </div>
@@ -210,52 +210,67 @@
                 <div class="col">
                     <div class="accordion" id="accordionExample">
                         <div class="card">
-                        <div class="card-header" id="headingOne">
-                            <h2 class="mb-0">
-                            <button class="btn btn-link btn-block text-center" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                Pregunta frecuente 1
-                            </button>
-                            </h2>
-                        </div>
-                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-                            <div class="card-body text-justify">
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute,
-                            non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua
-                            put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer
-                            labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft 
-                            beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                            <div class="card-header" id="headingOne">
+                                <button class="btn btn-link btn-block collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    <div class="row justify-content-between">
+                                        <div class="col text-left">
+                                            <span>Pregunta frecuente 1</span>
+                                        </div>
+                                        <div class="col-1 text-right">
+                                            <i class="fas fa-chevron-circle-down"></i>
+                                        </div>
+                                    </div>
+                                </button>
                             </div>
-                        </div>
+                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                <div class="card-body text-justify color-text-collapse">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute,
+                                non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua
+                                put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer
+                                labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft 
+                                beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                </div>
+                            </div>
                         </div>
                         <div class="card">
-                        <div class="card-header" id="headingTwo">
-                            <h2 class="mb-0">
-                            <button class="btn btn-link btn-block text-center collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                Pregunta frecuente 2
-                            </button>
-                            </h2>
-                        </div>
-                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-                            <div class="card-body text-justify">
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
-                            moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch
-                            3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. 
-                            Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan
-                            excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt
-                            you probably haven't heard of them accusamus labore sustainable VHS.
+                            <div class="card-header" id="headingTwo">
+                                <button class="btn btn-link btn-block collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    <div class="row justify-content-between">
+                                        <div class="col text-left">
+                                            <span>Pregunta frecuente 2</span>
+                                        </div>
+                                        <div class="col-1 text-right">
+                                            <i class="fas fa-chevron-circle-down"></i>
+                                        </div>
+                                    </div>
+                                </button>
                             </div>
-                        </div>
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                <div class="card-body text-justify color-text-collapse">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
+                                moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch
+                                3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. 
+                                Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan
+                                excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt
+                                you probably haven't heard of them accusamus labore sustainable VHS.
+                                </div>
+                            </div>
                         </div>
                         <div class="card">
                         <div class="card-header" id="headingThree">
-                            <h2 class="mb-0">
-                            <button class="btn btn-link btn-block text-center collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                Pregunta frecuente 3
+                            <button class="btn btn-link btn-block collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                <div class="row justify-content-between">
+                                    <div class="col text-left">
+                                        <span>Pregunta frecuente 3</span>
+                                    </div>
+                                    <div class="col-1 text-right">
+                                        <i class="fas fa-chevron-circle-down"></i>
+                                    </div>
+                                </div>
                             </button>
-                            </h2>
                         </div>
                         <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-                            <div class="card-body text-justify">
+                            <div class="card-body text-justify color-text-collapse">
                             Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon
                             officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf 
                             moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim 
@@ -267,14 +282,19 @@
                         </div>
                         <div class="card">
                             <div class="card-header" id="headingFour">
-                                <h2 class="mb-0">
-                                <button class="btn btn-link btn-block text-center collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                    Pregunta frecuente 4
+                                <button class="btn btn-link btn-block collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    <div class="row justify-content-between">
+                                        <div class="col text-left">
+                                            <span>Pregunta frecuente 4</span>
+                                        </div>
+                                        <div class="col-1 text-right">
+                                            <i class="fas fa-chevron-circle-down"></i>
+                                        </div>
+                                    </div>
                                 </button>
-                                </h2>
                             </div>
                             <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
-                                <div class="card-body text-justify">
+                                <div class="card-body text-justify color-text-collapse">
                                 Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon
                                 officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf 
                                 moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim 
@@ -291,35 +311,37 @@
     </section>
 
     <!-- Team -->
-    <section class="team py-5">
+    <section id="team" class="py-5">
         <div class="container text-center">
-            <h1 class="text-white">Equipo</h1>
-            <p class="text-white">
+            <h1 class="color-text-team">Equipo</h1>
+            <p class="color-text-team">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aliquid itaque suscipit nemo 
             nesciunt aspernatur fugiat quibusdam culpa voluptatibus doloremque!
             </p>
             <!-- Member -->
             <div class="row">
                 <div class="col-md-6 col-lg-3">
-                    <div class="card border-0">
+                    <div class="card border-0 color-card-team">
                         <img src="img/person1.jpg" class="card-img-top rounded-top" alt="Person One">
                         <div class="card-body">
-                            <h3>Jhon Carter</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, magni!</p>
+                            <h3 class="color-text-person">Jhon Carter</h3>
+                            <p class="color-text-description">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, magni!
+                            </p>
                             <div class="d-flex flex-row justify-content-center">
                                 <div class="py-2 px-4">
                                     <a href="https://facebook.com/" target="_blank">
-                                        <i class="fab fa-facebook fa-2x"></i>
+                                        <i class="fab fa-facebook fa-2x color-iconos-team"></i>
                                     </a>
                                 </div>
                                 <div class="py-2 px-4">
                                     <a href="https://twitter.com/" target="_blank">
-                                        <i class="fab fa-twitter fa-2x"></i>
+                                        <i class="fab fa-twitter fa-2x color-iconos-team"></i>
                                     </a>
                                 </div>
                                 <div class="py-2 px-4">
                                     <a href="https://instagram.com/" target="_blank">
-                                        <i class="fab fa-instagram fa-2x"></i>
+                                        <i class="fab fa-instagram fa-2x color-iconos-team"></i>
                                     </a>
                                 </div>
                             </div>
@@ -327,25 +349,27 @@
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
-                    <div class="card border-0">
+                    <div class="card border-0 color-card-team">
                         <img src="img/person2.jpg" class="card-img-top rounded-top" alt="Person Two">
                         <div class="card-body">
-                            <h3>Kristy Yost</h3>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, reprehenderit!</p>
+                            <h3 class="color-text-person">Kristy Yost</h3>
+                            <p class="color-text-description">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, reprehenderit!
+                            </p>
                             <div class="d-flex flex-row justify-content-center">
                                 <div class="py-2 px-4">
                                     <a href="https://facebook.com/" target="_blank">
-                                        <i class="fab fa-facebook fa-2x"></i>
+                                        <i class="fab fa-facebook fa-2x color-iconos-team"></i>
                                     </a>
                                 </div>
                                 <div class="py-2 px-4">
                                     <a href="https://twitter.com/" target="_blank">
-                                        <i class="fab fa-twitter fa-2x"></i>
+                                        <i class="fab fa-twitter fa-2x color-iconos-team"></i>
                                     </a>
                                 </div>
                                 <div class="py-2 px-4">
                                     <a href="https://instagram.com/" target="_blank">
-                                        <i class="fab fa-instagram fa-2x"></i>
+                                        <i class="fab fa-instagram fa-2x color-iconos-team"></i>
                                     </a>
                                 </div>
                             </div>
@@ -353,25 +377,27 @@
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
-                    <div class="card border-0">
+                    <div class="card border-0 color-card-team">
                         <img src="img/person3.jpg" class="card-img-top rounded-top" alt="Person three">
                         <div class="card-body">
-                            <h3>Chris O'Reilly</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, doloribus.</p>
+                            <h3 class="color-text-person">Chris O'Reilly</h3>
+                            <p class="color-text-description">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, doloribus.
+                            </p>
                             <div class="d-flex flex-row justify-content-center">
                                 <div class="py-2 px-4">
                                     <a href="https://facebook.com/" target="_blank">
-                                        <i class="fab fa-facebook fa-2x"></i>
+                                        <i class="fab fa-facebook fa-2x color-iconos-team"></i>
                                     </a>
                                 </div>
                                 <div class="py-2 px-4">
                                     <a href="https://twitter.com/" target="_blank">
-                                        <i class="fab fa-twitter fa-2x"></i>
+                                        <i class="fab fa-twitter fa-2x color-iconos-team"></i>
                                     </a>
                                 </div>
                                 <div class="py-2 px-4">
                                     <a href="https://instagram.com/" target="_blank">
-                                        <i class="fab fa-instagram fa-2x"></i>
+                                        <i class="fab fa-instagram fa-2x color-iconos-team"></i>
                                     </a>
                                 </div>
                             </div>
@@ -379,25 +405,27 @@
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
-                    <div class="card border-0">
+                    <div class="card border-0 color-card-team">
                         <img src="img/person4.jpg" class="card-img-top rounded-top" alt="Person Four">
                         <div class="card-body">
-                            <h3>Judy Mueller</h3>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus, exerci.</p>
+                            <h3 class="color-text-person">Judy Mueller</h3>
+                            <p class="color-text-description">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus, exerci.
+                            </p>
                             <div class="d-flex flex-row justify-content-center">
                                 <div class="py-2 px-4">
                                     <a href="https://facebook.com/" target="_blank">
-                                        <i class="fab fa-facebook fa-2x"></i>
+                                        <i class="fab fa-facebook fa-2x color-iconos-team"></i>
                                     </a>
                                 </div>
                                 <div class="py-2 px-4">
                                     <a href="https://twitter.com/" target="_blank">
-                                        <i class="fab fa-twitter fa-2x"></i>
+                                        <i class="fab fa-twitter fa-2x color-iconos-team"></i>
                                     </a>
                                 </div>
                                 <div class="py-2 px-4">
                                     <a href="https://instagram.com/" target="_blank">
-                                        <i class="fab fa-instagram fa-2x"></i>
+                                        <i class="fab fa-instagram fa-2x color-iconos-team"></i>
                                     </a>
                                 </div>
                             </div>
@@ -409,7 +437,7 @@
     </section>
 
     <!-- Contact -->
-    <section class="bg-light py-5">
+    <section class="py-5">
         <div class="container">
             <div class="row">
                 <div class="col">

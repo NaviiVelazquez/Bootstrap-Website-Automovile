@@ -174,7 +174,108 @@ body {
     box-shadow: 0 0 0 3px rgb(217, 55, 110, 0.7) !important;
 }
 
+/* ********************************* About ********************************* */
+
+#acerca-producto {
+    background: #eff0f3 !important;
+}
+
+#acerca-producto h3 {
+    color: #0d0d0d;
+}
+
+#acerca-producto p {
+    color: #2a2a2a;
+}
+
+/* ********************************* Collapse ********************************* */
+
+#titulo-principal h3 {
+    color: #0d0d0d;
+}
+
+.color-text-collapse {
+    color: #2a2a2a;
+}
+
+#headingOne {
+    background-color: #eff0f3;
+}
+
+#headingOne button {
+    text-decoration: none;
+    color: #0d0d0d;
+}
+
+#headingOne button:hover {
+    color: #2a2a2a;
+    font-weight: bolder;
+}
+
+#headingTwo {
+    background-color: #eff0f3;
+}
+
+#headingTwo button {
+    text-decoration: none;
+    color: #0d0d0d;
+}
+
+#headingTwo button:hover {
+    color: #2a2a2a;
+    font-weight: bolder;
+}
+
+#headingThree {
+    background-color: #eff0f3;
+}
+
+#headingThree button {
+    text-decoration: none;
+    color: #0d0d0d;
+}
+
+#headingThree button:hover {
+    color: #2a2a2a;
+    font-weight: bolder;
+}
+
+#headingFour {
+    background-color: #eff0f3;
+}
+
+#headingFour button {
+    text-decoration: none;
+    color: #0d0d0d;
+}
+
+#headingFour button:hover {
+    color: #2a2a2a;
+    font-weight: bolder;
+}
+
 /* ********************************* Team ********************************* */
-.team {
-    background-color: #30336b;
+
+#team {
+    background-color: #ff8e3c;
+}
+
+.color-text-team {
+    color: #fffffe;
+}
+
+.color-card-team {
+    background-color: #fffffe;
+}
+
+.color-text-person {
+    color: #0d0d0d;
+}
+
+.color-text-description {
+    color: #2a2a2a;
+}
+
+.color-iconos-team {
+    color: #d9376e;
 }

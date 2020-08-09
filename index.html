@@ -65,7 +65,7 @@
                     <div class="col-md-6 d-none d-md-block">
                         <!-- 16:9 aspect ratio -->
                         <div class="embed-responsive embed-responsive-16by9 d-none d-sm-block">
-                            <!-- <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ijcAwrWMi0g" allowfullscreen></iframe> -->
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ijcAwrWMi0g" allowfullscreen></iframe>
                         </div>
                     </div>
                 </div>
@@ -320,7 +320,7 @@
             </p>
             <!-- Member -->
             <div class="row">
-                <div class="col-md-6 col-lg-3">
+                <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
                     <div class="card border-0 color-card-team">
                         <img src="img/person1.jpg" class="card-img-top rounded-top" alt="Person One">
                         <div class="card-body">
@@ -348,7 +348,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-3">
+                <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
                     <div class="card border-0 color-card-team">
                         <img src="img/person2.jpg" class="card-img-top rounded-top" alt="Person Two">
                         <div class="card-body">
@@ -376,7 +376,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-3">
+                <div class="col-md-6 col-lg-3 mb-3 mb-md-0">
                     <div class="card border-0 color-card-team">
                         <img src="img/person3.jpg" class="card-img-top rounded-top" alt="Person three">
                         <div class="card-body">
@@ -441,35 +441,40 @@
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <h3>Contact</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-                    <form action="">
+                    <h3 class="color-titulo-contacto">Contacto</h3>
+                    <p class="color-descripcion-contacto">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    </p>
+                    <form id="formulario-contacto" action="">
                         <div class="input-group mb-3">
                             <div class="input-group-prepend">
-                                <div class="input-group-text">
-                                    <i class="fas fa-user"></i>
+                                <div id="icono-input-nombre" class="input-group-text">
+                                    <i class="fas fa-user color-iconos-contacto"></i>
                                 </div>
                             </div>
                             <input type="text" class="form-control" placeholder="Nombre">
                         </div>
                         <div class="input-group mb-3">
                             <div class="input-group-prepend">
-                                <div class="input-group-text">
-                                    <i class="fas fa-envelope"></i>
+                                <div id="icono-input-email" class="input-group-text">
+                                    <i class="fas fa-envelope color-iconos-contacto"></i>
                                 </div>
                             </div>
                             <input type="email" class="form-control" placeholder="Email">
                         </div>
                         <div class="input-group mb-3">
                             <div class="input-group-prepend">
-                                <div class="input-group-text">
-                                    <i class="fas fa-pencil-alt"></i>
+                                <div id="icono-input-mensaje" class="input-group-text">
+                                    <i class="fas fa-pencil-alt color-iconos-contacto"></i>
                                 </div>
                             </div>
                             <textarea class="form-control" placeholder="Escribe tu mensaje" rows="6"></textarea>
                         </div>
                         <div>
-                            <button class="btn btn-primary btn-lg btn-block">Enviar</button>
+                            <a href="#!" class="btn btn-primary btn-lg btn-block">
+                                <span class="mr-1">Enviar</span>
+                                <i class="fas fa-paper-plane"></i>
+                            </a>
                         </div>
                     </form>
                 </div>
@@ -478,9 +483,67 @@
     </section>
 
     <!-- Footer -->
-    <footer class="bg-dark">
-        <div class="container p-3 text-center text-white">
-            <p>Copyright © 2020: NaviiVelazquez</P>
+    <footer id="footer-main" class="mt-4">
+        <div class="container-fluid text-center text-lg-left">
+            <div class="row py-5">
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <h6 class="text-uppercase titulo-company-footer">Industria automovilística</h6>
+                    <hr class="separador-footer mb-4 mt-0 d-inline-block mx-auto">
+                    <p class="text-md-justify mr-lg-5 footer-text-company">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates doloribus totam, laboriosam ut quam cumque
+                        optio sed quo iusto nulla omnis explicabo velit obcaecati quidem beatae magni, odit magnam.
+                    </p>
+                </div>
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <h6 class="text-uppercase titulo-productos-footer">Productos</h6>
+                    <hr class="separador-footer mb-4 mt-0 d-inline-block mx-auto">
+                    <p>
+                        <a href="#!" class="estilo-btn-producto">
+                            <i class="fas fa-shopping-bag mr-1"></i>
+                            <span>Producto 1</span>
+                        </a>
+                    </p>
+                    <p>
+                        <a href="#!" class="estilo-btn-producto">
+                            <i class="fas fa-shopping-bag mr-1"></i>
+                            <span>Producto 2</span>
+                        </a>
+                    </p>
+                    <p>
+                        <a href="#!" class="estilo-btn-producto">
+                            <i class="fas fa-shopping-bag mr-1"></i>
+                            <span>Producto 3</span>
+                        </a>
+                    </p>
+                </div>
+                <div class="col-lg-4">
+                    <h6 class="text-uppercase titulo-contacto-footer">Contacto</h6>
+                    <hr class="separador-footer mb-4 mt-0 d-inline-block mx-auto">
+                    <p class="estilo-text-contacto">
+                        <i class="fas fa-home mr-1"></i>
+                        <span>25954, East Dorian, Guinea</span>
+                    </p>
+                    <p>
+                        <a href="#!" class="estilo-btn-contacto">
+                            <i class="fas fa-envelope mr-1"></i>
+                            <span>contacto@automovilística.com</span>
+                        </a>
+                    </p>
+                    <p>
+                        <a href="#!" class="estilo-btn-contacto">
+                            <i class="fas fa-phone mr-1"></i>
+                            <span>701-680-6166</span>
+                        </a>
+                    </p>
+                </div>
+            </div>
+            <div id="fondo-row-autor" class="row text-center text-white">
+                <div class="col py-3">
+                    <p class="mb-0">
+                        © 2020 Copyright: <span class="estilo-text-autor">NaviiVelazquez</span>
+                    </P>
+                </div>
+            </div>
         </div>
     </footer>
 

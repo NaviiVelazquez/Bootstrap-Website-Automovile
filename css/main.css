@@ -72,6 +72,10 @@ body {
     background-color: #0d0d0d;
 }
 
+#newsletter-main input {
+    color: #2a2a2a;
+}
+
 #newsletter-main input:focus {
     border-color: #ff8e3c !important;
     box-shadow: 0 0 0 3px rgb(255, 142, 60, 0.7) !important;
@@ -278,4 +282,129 @@ body {
 
 .color-iconos-team {
     color: #d9376e;
+}
+
+/* ********************************* Contact ********************************* */
+
+.color-titulo-contacto {
+    color: #0d0d0d;
+}
+
+.color-descripcion-contacto {
+    color: #2a2a2a;
+}
+
+.color-iconos-contacto {
+    color: #d9376e;
+}
+
+#icono-input-nombre {
+    background-color: #eff0f3;
+}
+
+#icono-input-email {
+    background-color: #eff0f3;
+}
+
+#icono-input-mensaje {
+    background-color: #eff0f3;
+}
+
+#formulario-contacto input {
+    color: #2a2a2a;
+}
+
+#formulario-contacto input:focus {
+    border-color: #ff8e3c !important;
+    box-shadow: 0 0 0 3px rgb(255, 142, 60, 0.7) !important;    
+}
+
+#formulario-contacto textarea {
+    color: #2a2a2a;
+}
+
+#formulario-contacto textarea:focus {
+    border-color: #ff8e3c !important;
+    box-shadow: 0 0 0 3px rgb(255, 142, 60, 0.7) !important; 
+}
+
+#formulario-contacto a {
+    color: #fffffe;
+    background-color: #ff8e3c;
+    border-color: #ff8e3c;
+}
+
+#formulario-contacto a:hover {
+    color: #fffffe !important;
+    border-color: #fffffe;
+}
+
+#formulario-contacto a:focus {
+    color: #ffffff !important;
+    border-color: #ff8e3c !important;
+    box-shadow: 0 0 0 3px rgb(255, 142, 60, 0.7) !important;
+}
+
+/* ********************************* Footer ********************************* */
+
+#footer-main {
+    background: #0d0d0d;
+}
+
+.separador-footer {
+    width: 280px;
+    background-color: #ff8e3c;
+}
+
+.titulo-company-footer {
+    font-weight: 700 !important;
+    color: #fffffe;
+}
+
+.footer-text-company {
+    color: #fffffe;
+}
+
+.titulo-productos-footer {
+    font-weight: 700 !important;
+    color: #fffffe;
+}
+
+.estilo-btn-producto {
+    color: #fffffe;
+}
+
+.estilo-btn-producto:hover {
+    color: #ff8e3c;
+    text-decoration: none;
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+.titulo-contacto-footer {
+    font-weight: 700 !important;
+    color: #fffffe;
+}
+
+.estilo-text-contacto {
+    color: #fffffe;
+}
+
+.estilo-btn-contacto {
+    color: #fffffe;
+}
+
+.estilo-btn-contacto:hover {
+    color: #ff8e3c;
+    text-decoration: none;
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+#fondo-row-autor {
+    background-color: #2a2a2a;
+}
+
+.estilo-text-autor {
+    color: #ff8e3c;
 }

@@ -408,3 +408,11 @@ body {
 .estilo-text-autor {
     color: #ff8e3c;
 }
+
+.estilo-text-autor:hover {
+    color: #fffffe;
+}
+
+.btn-autor-footer:hover {
+    text-decoration: none;
+}

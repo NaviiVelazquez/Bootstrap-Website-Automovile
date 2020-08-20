@@ -14,6 +14,9 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/main.css">
 
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+
 </head>
 <body>
     <!-- Navigation -->
@@ -54,7 +57,7 @@
         <div class="background-overlay pt-5">
             <div class="container-fluid h-100">
                 <div class="row h-100 align-items-center">
-                    <div class="col-md-6 text-center color-texto">
+                    <div class="col-md-6 text-center color-texto animate__animated animate__zoomIn animate__slow">
                         <h1>Este es un titulo o una frase relacionada al producto</h1>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus, et.</p>
                         <a id="btn-leer" href="#!" class="btn btn-primary btn-lg">
@@ -62,7 +65,7 @@
                             <i class="fas fa-chevron-circle-right"></i>
                         </a>
                     </div>
-                    <div class="col-md-6 d-none d-md-block">
+                    <div class="col-md-6 d-none d-md-block animate__animated animate__fadeInRight animate__slow">
                         <!-- 16:9 aspect ratio -->
                         <div class="embed-responsive embed-responsive-16by9 d-none d-sm-block">
                             <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ijcAwrWMi0g" allowfullscreen></iframe>
@@ -96,7 +99,7 @@
     <!-- Features -->
     <section class="py-5">
         <div class="container">
-            <div class="row">
+            <div class="row wow animate__animated animate__lightSpeedInLeft animate__slower">
                 <div class="mb-3 mb-lg-0 col-md-6 col-lg-3">
                     <div id="card-caracteristica-uno" class="card">
                         <div class="card-body">
@@ -184,7 +187,7 @@
     <!-- About -->
     <section id="acerca-producto" class="py-5">
         <div class="container">
-            <div class="row text-center">
+            <div class="row text-center wow animate__animated animate__zoomIn animate__slower">
                 <div class="col">
                     <h3>Acerca del producto</h3>
                     <p>
@@ -200,7 +203,7 @@
 
     <!-- Collapse -->
     <section class="py-5">
-        <div class="container">
+        <div class="container wow animate__animated animate__fadeInUp animate__slower">
             <div id="titulo-principal" class="row">
                 <div class="col text-center pb-3">
                     <h3>Preguntas frecuentes</h3>
@@ -313,14 +316,14 @@
     <!-- Team -->
     <section id="team" class="py-5">
         <div class="container text-center">
-            <h1 class="color-text-team">Equipo</h1>
-            <p class="color-text-team">
+            <h1 class="color-text-team wow animate__animated animate__zoomIn animate__slower">Equipo</h1>
+            <p class="color-text-team wow animate__animated animate__zoomIn animate__slower">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aliquid itaque suscipit nemo 
             nesciunt aspernatur fugiat quibusdam culpa voluptatibus doloremque!
             </p>
             <!-- Member -->
             <div class="row">
-                <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
+                <div class="col-md-6 col-lg-3 mb-3 mb-lg-0 wow animate__animated animate__fadeInTopLeft animate__slower">
                     <div class="card border-0 color-card-team">
                         <img loading="lazy" src="img/person1.jpg" class="card-img-top rounded-top" alt="Person One">
                         <div class="card-body">
@@ -348,7 +351,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
+                <div class="col-md-6 col-lg-3 mb-3 mb-lg-0 wow animate__animated animate__fadeInTopRight animate__slower">
                     <div class="card border-0 color-card-team">
                         <img loading="lazy" src="img/person2.jpg" class="card-img-top rounded-top" alt="Person Two">
                         <div class="card-body">
@@ -376,7 +379,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-3 mb-3 mb-md-0">
+                <div class="col-md-6 col-lg-3 mb-3 mb-md-0 wow animate__animated animate__fadeInBottomLeft animate__slower">
                     <div class="card border-0 color-card-team">
                         <img loading="lazy" src="img/person3.jpg" class="card-img-top rounded-top" alt="Person three">
                         <div class="card-body">
@@ -404,7 +407,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-3">
+                <div class="col-md-6 col-lg-3 wow animate__animated animate__fadeInBottomRight animate__slower">
                     <div class="card border-0 color-card-team">
                         <img loading="lazy" src="img/person4.jpg" class="card-img-top rounded-top" alt="Person Four">
                         <div class="card-body">
@@ -439,7 +442,7 @@
     <!-- Contact -->
     <section class="py-5">
         <div class="container">
-            <div class="row">
+            <div class="row wow animate__animated animate__zoomIn animate__slower">
                 <div class="col">
                     <h3 class="color-titulo-contacto">Contacto</h3>
                     <p class="color-descripcion-contacto">
@@ -549,6 +552,14 @@
             </div>
         </div>
     </footer>
+
+    <!-- WOW.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+
+    <!-- Activacion de WOW.js -->
+    <script>
+        new WOW().init();
+    </script>
 
     <!-- Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
